@@ -130,11 +130,11 @@ ul.days li {
 }
 .time {
     font-size: 12px;
-    line-height: 40px;
+    line-height: 20px;
 }
 .flavor {
     font-size: 12px;
-    line-height: 30px;
+    line-height: 37px;
 }
 #coconut {
     width: 126px;
@@ -153,7 +153,7 @@ ul.days li {
     color: white;
     font-size: 12px;
     border: 2px;
-    padding-top: 2px;
+    padding-top: 4px;
     padding-bottom: 0;
 }
 #lemon {
@@ -163,7 +163,7 @@ ul.days li {
     color: white;
     font-size: 12px;
     border: 2px;
-    padding-top: 2px;
+    padding-top: 4px;
     padding-bottom: 0;
 }
 #almond {
@@ -173,7 +173,7 @@ ul.days li {
     color: white;
     font-size: 12px;
     border: 2px;
-    padding-top: 2px;
+    padding-top: 4px;
     padding-bottom: 0;
 }
 .footer {
