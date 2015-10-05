@@ -199,3 +199,150 @@ ul#footer1 li {
 .pic_align2 {
     margin: 0 10px 0 25px;
 }
+#find_us {
+    width: 1000px;
+    height: 400px;
+}
+.contact_body {
+    width: 1000px;
+    padding-top: 10px;
+}
+#open_time {
+    width: 33%;
+    float: left;
+}
+ul.open li {
+    list-style-type: none;
+    background-color: #fffabe;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+}
+.open {
+    font-size: 14px;
+}
+#contact_form {
+    width: 33%;
+    float: left;
+}
+#submit {
+    margin-left: 50%;
+    background-color: #f5f5f5;
+    width: 155px;
+    height: 35px;
+    margin-bottom: 40%;
+}
+#order {
+    color: #df5277;
+}
+#name {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#email {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#phone {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#subject {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#message {
+    width: 310px;
+    height: 70px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+#footer_contact {
+    width: 1000px;
+    height: 80px;
+ }
+.footer_contact {
+    width: 100%;
+    height: 80px;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+
+}
+ul#footer1_contact li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+    width: 50%;
+
+}
+.footer2_contact {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+
+    #find_us {
+        max-width: 100%;
+        height: auto;
+    }
+    #contact_body {
+        width: 85%;
+        text-align: center;
+    }
+    #open_time {
+        width: 100%;
+        padding-left: 5%;
+    }
+    #contact_form {
+        width: 100%;
+    }
+    #name {
+        width: 100%;
+        height: 10%;
+    }
+    #email {
+        width: 100%;
+        height: 10%;
+    }
+    #phone {
+        width: 100%;
+        height: 10%;
+    }
+    #subject {
+        width: 100%;
+        height: 10%;
+    }
+    #message {
+        width: 100%;
+        height: 10%;
+    }
+    #submit {
+        width: 100%;
+        height: 10%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #contact_image {
+        margin: 30%;
+    }
+
+}
