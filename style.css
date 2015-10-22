@@ -276,7 +276,7 @@ ul.open li {
 @media screen and (max-width: 375px) {
 
     #find_us {
-        max-width: 100%;
+        max-width: 85%;
         height: auto;
     }
     #contact_body {
@@ -284,34 +284,34 @@ ul.open li {
         text-align: center;
     }
     #open_time {
-        width: 100%;
+        width: 85%;
         padding-left: 5%;
     }
     #contact_form {
-        width: 100%;
+        width: 85%;
     }
     #name {
-        width: 100%;
+        width: 85%;
         height: 10%;
     }
     #email {
-        width: 100%;
+        width: 85%;
         height: 10%;
     }
     #phone {
-        width: 100%;
+        width: 85%;
         height: 10%;
     }
     #subject {
-        width: 100%;
+        width: 85%;
         height: 10%;
     }
     #message {
-        width: 100%;
+        width: 85%;
         height: 10%;
     }
     #submit {
-        width: 100%;
+        width: 85%;
         height: 10%;
         margin-left: 0;
         margin-bottom: 0;
