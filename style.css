@@ -31,14 +31,14 @@ a:hover {
     height: 400px;
         }
 #macaron_img {
-    width: 17%;
+    width: 10%;
     float: left;
     padding: 30px 10px 10px 10px;
     margin: 20px;
                 }
 .body {
     float: left;
-    width: 60%;
+    width: 40vw;
     color: #6a6969;
     padding: 30px 10px 10px 10px;
     margin: 3px;
@@ -275,6 +275,8 @@ ul.open li {
 
 @media screen and (max-width: 375px) {
 
+
+
     #find_us {
         max-width: 85%;
         height: auto;
@@ -290,6 +292,7 @@ ul.open li {
     #contact_form {
         width: 85%;
     }
+
     #name {
         width: 85%;
         height: 10%;
