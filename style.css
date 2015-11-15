@@ -3,8 +3,8 @@
 .header {
     background-color: #fffabe;
     padding: 5px;
-    width: 1000px;
-    height: 72px;
+    width: 78.2vw;
+    height: 5.63vw;
         }
 
 ul#h1 li {
@@ -12,33 +12,41 @@ ul#h1 li {
     list-style-type: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     background-color: #fffabe;
-    padding: 15px;
+    padding: 1.15vw;
         }
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #515151;
     padding: 2%;
 }
 a:hover {
     color: #d42551;
         }
-.welcome{
-    width: 1000px;
-    height: 400px;
+#logo img {
+    width: 11vw;
+    height: 3vw;
+}
+#welcome img{
+    width: 78.2vw;
+    height: 31.25vw;
         }
-#macaron_img {
-    width: 10%;
+#language {
+    width: 78.2vw;
+    float: left;
+}
+#macaron_img img{
+    width: 10vw;
     float: left;
     padding: 30px 10px 10px 10px;
-    margin: 20px;
-                }
+    margin: 20px 40px 20px 20px;
+}
 .body {
     float: left;
-    width: 40vw;
+    width: 60vw;
     color: #6a6969;
     padding: 30px 10px 10px 10px;
     margin: 3px;
@@ -63,60 +71,60 @@ a:hover {
 
 }
 #monday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 10px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #tuesday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #wednesday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #thursday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #friday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #saturday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #sunday {
-    width: 126px;
-    height: 140px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 
 ul.days li {
@@ -137,8 +145,8 @@ ul.days li {
     line-height: 37px;
 }
 #coconut {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #824603;
     color: white;
     font-size: 12px;
@@ -146,8 +154,8 @@ ul.days li {
     padding: 4px 3px 0 0;
 }
 #vanilla {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #df5277;
     color: white;
     font-size: 12px;
@@ -155,8 +163,8 @@ ul.days li {
     padding: 4px 3px 0 0;
 }
 #lemon {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #a2304e;
     color: white;
     font-size: 12px;
@@ -164,16 +172,16 @@ ul.days li {
     padding: 4px 3px 0 0;
 }
 #almond {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #c39005;
     color: white;
     font-size: 12px;
     padding: 4px 3px 0 0;
 }
 .footer {
-    width: 1000px;
-    height: 80px;
+    width: 78.2vw;
+    height: 5.63vw;
     background-color: #df5277;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -199,12 +207,13 @@ ul#footer1 li {
     margin: 0 10px 0 25px;
 }
 
-#find_us {
-    width: 1000px;
-    height: 400px;
+#find_us img{
+    width: 78.2vw;
+    height: 31.25vw;
 }
+
 .contact_body {
-    width: 1000px;
+    width: 78.2vw;
     padding-top: 10px;
 }
 #open_time {
@@ -273,57 +282,7 @@ ul.open li {
     clear: both;
 }
 
-@media screen and (max-width: 375px) {
 
-
-
-    #find_us {
-        max-width: 85%;
-        height: auto;
-    }
-    #contact_body {
-        width: 85%;
-        text-align: center;
-    }
-    #open_time {
-        width: 85%;
-        padding-left: 5%;
-    }
-    #contact_form {
-        width: 85%;
-    }
-
-    #name {
-        width: 85%;
-        height: 10%;
-    }
-    #email {
-        width: 85%;
-        height: 10%;
-    }
-    #phone {
-        width: 85%;
-        height: 10%;
-    }
-    #subject {
-        width: 85%;
-        height: 10%;
-    }
-    #message {
-        width: 85%;
-        height: 10%;
-    }
-    #submit {
-        width: 85%;
-        height: 10%;
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-    #contact_image {
-        margin: 30%;
-    }
-
-}
 
 
 #flavors {
@@ -387,3 +346,54 @@ ul#footer1_menu li {
     color: white;
 }
 
+@media screen and (max-width: 375px) {
+
+
+
+    #find_us img{
+        max-width: 85%;
+        height: auto;
+    }
+    #contact_body {
+        width: 85%;
+        text-align: center;
+    }
+    #open_time {
+        width: 85%;
+        padding-left: 5%;
+    }
+    #contact_form {
+        width: 85%;
+    }
+
+    #name {
+        width: 85%;
+        height: 10%;
+    }
+    #email {
+        width: 85%;
+        height: 10%;
+    }
+    #phone {
+        width: 85%;
+        height: 10%;
+    }
+    #subject {
+        width: 85%;
+        height: 10%;
+    }
+    #message {
+        width: 85%;
+        height: 10%;
+    }
+    #submit {
+        width: 85%;
+        height: 10%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #contact_image {
+        margin: 30%;
+    }
+
+}
