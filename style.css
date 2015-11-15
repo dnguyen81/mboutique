@@ -1,1 +1,240 @@
 /* Add your CSS here */
+
+.header {
+    background-color: #fffabe;
+    padding: 5px;
+    width: 1000px;
+    height: 72px;
+        }
+
+ul#h1 li {
+    display: inline;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #fffabe;
+    padding: 15px;
+        }
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+    padding: 2%;
+}
+a:hover {
+    color: #d42551;
+        }
+.welcome{
+    width: 1000px;
+    height: 400px;
+        }
+#macaron_img {
+    width: 17%;
+    float: left;
+    padding: 30px 10px 10px 10px;
+    margin: 20px;
+                }
+.body {
+    float: left;
+    width: 60%;
+    color: #6a6969;
+    padding: 30px 10px 10px 10px;
+    margin: 3px;
+        }
+.welcome_msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#macaron_days {
+    display: inline-block;
+    margin: 5px;
+    border: 1px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+#monday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 10px;
+    line-height: 25px;
+    padding: 3px;
+}
+#tuesday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+#wednesday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+#thursday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+#friday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+#saturday {
+    height: 140px;
+    width: 126px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+#sunday {
+    width: 126px;
+    height: 140px;
+    float: left;
+    margin: 5px;
+    line-height: 25px;
+    padding: 3px;
+}
+
+ul.days li {
+    list-style-type: none;
+    background-color: #fffabe;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+}
+.day {
+    font-size: 14px;
+}
+.time {
+    font-size: 12px;
+    line-height: 20px;
+}
+.flavor {
+    font-size: 12px;
+    line-height: 37px;
+}
+#coconut {
+    width: 126px;
+    height: 33px;
+    background-color: #824603;
+    color: white;
+    font-size: 12px;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#vanilla {
+    width: 126px;
+    height: 33px;
+    background-color: #df5277;
+    color: white;
+    font-size: 12px;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#lemon {
+    width: 126px;
+    height: 33px;
+    background-color: #a2304e;
+    color: white;
+    font-size: 12px;
+    border: 2px;
+    padding: 4px 3px 0 0;
+}
+#almond {
+    width: 126px;
+    height: 33px;
+    background-color: #c39005;
+    color: white;
+    font-size: 12px;
+    padding: 4px 3px 0 0;
+}
+.footer {
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+ul#footer1 li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+
+}
+.footer2 {
+    text-align: center;
+    color: white;
+}
+.pic_align1 {
+    margin-right: 10px;
+}
+.pic_align2 {
+    margin: 0 10px 0 25px;
+}
+#flavors {
+    margin: 10px;
+    padding: 0;
+}
+#our_macarons {
+    position: relative;
+    right: 0;
+    bottom: 550px;
+    z-index: -1;
+}
+#after_purchase {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    position: relative;
+    bottom: 525px;
+}
+.footer_menu {
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+}
+ul#footer1_menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+
+}
+.footer2_menu {
+    text-align: center;
+    color: white;
+}
