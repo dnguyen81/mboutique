@@ -482,12 +482,10 @@ ul#footer1_menu li {
         margin-top: 10%;
     }
 .footer {
-    position: absolute;
-    float: left;
+    position: relative;
     height: auto;
     width: 100%;
     text-align: center;
-    bottom: -140vw;
 
 }
 #footer1{
@@ -514,5 +512,9 @@ ul#footer1_menu li {
     }
     #party_tower{
         width: 100%
+    }
+    #footer_contact{
+        position: absolute;
+        bottom: -87%;
     }
 }
