@@ -359,18 +359,13 @@ ul#footer1_menu li {
 @media screen and (max-width: 375px) {
 
     .header {
-        background-color: #fffabe;
         padding: 5px;
         width: 80%;
         height: 50%;
     }
     ul#h1 li {
         display: inline;
-        list-style-type: none;
-        text-transform: uppercase;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 50%;
-        background-color: #fffabe;
         margin: 5%;
         padding: 3%;
         text-align: center;
