@@ -3,13 +3,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-<!--    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,fr,ja,vi,zh-CN,zh-TW'}, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+
 </head>
 <body>
     <div class="header">
@@ -28,11 +24,10 @@
         <img src="assets/images/macarons-image.png">
     </div>
 
-<!--    <div id="google_translate_element"></div>-->
-    <form action="http://www.google.com/translate" >
+    <form id = "language" action="http://www.google.com/translate" >
         <script language="JavaScript">
             <!--
-            document.write ("<input name=u value="+location.href+" type=hidden>")
+            document.write ("<input name=u value="+location.href+" type=hidden>");
             // -->
         </script>
         <input name="hl" value="en" type="hidden">
@@ -41,7 +36,6 @@
         <input name="langpair" value="en|fr" title="French" src= "http://photos1.blogger.com/img/43/1633/320/13539949_e76af75976.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
         <input name="langpair" value="en|de" title="German" src= "http://photos1.blogger.com/img/43/1633/320/13539933_041ca1eda2.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
         <input name="langpair" value="en|it" title="Italian" src= "http://photos1.blogger.com/img/43/1633/320/13539953_0384ccecf9.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-        <input name="langpair" value="en|pt" title="Portuguese" src= "http://photos1.blogger.com/img/43/1633/320/13539966_0d09b410b5.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
         <input name="langpair" value="en|es" title="Spanish" src= "http://photos1.blogger.com/img/43/1633/320/13539946_2fabed0dbf.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
         <input name="langpair" value="en|ja" title="Japanese" src= "http://photos1.blogger.com/img/43/1633/320/13539955_925e6683c8.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
         <input name="langpair" value="en|ko" title="Korean" src= "http://photos1.blogger.com/img/43/1633/320/13539958_3c3b482c95.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
@@ -71,10 +65,7 @@
             Find the flavor you like. Try a sample every day!
         </p>
     </div>
-    <!--
-        not sure why the <ul class="days"> was adding "padding-left 40px" as seen by chrome debugging tool so I
-        added inline styling
-    -->
+
     <div id="macaron_days">
         <div id="monday">
             <ul class="days" style="padding-left: 0;">

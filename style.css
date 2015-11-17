@@ -3,8 +3,8 @@
 .header {
     background-color: #fffabe;
     padding: 5px;
-    width: 1000px;
-    height: 72px;
+    width: 78.2vw;
+    height: 5.63vw;
         }
 
 ul#h1 li {
@@ -12,37 +12,54 @@ ul#h1 li {
     list-style-type: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     background-color: #fffabe;
-    padding: 15px;
+    padding: 1.15vw;
         }
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #515151;
     padding: 2%;
 }
 a:hover {
     color: #d42551;
         }
-.welcome{
-    width: 1000px;
-    height: 400px;
+#logo img {
+    width: 11vw;
+    height: 3vw;
+}
+#welcome img{
+    width: 78.2vw;
+    height: 31.25vw;
         }
-#macaron_img {
-    width: 10%;
+#language {
+    width: 78.2vw;
+    float: left;
+}
+#macaron_img img{
+    width: 10vw;
     float: left;
     padding: 30px 10px 10px 10px;
-    margin: 20px;
-                }
+    margin: 20px 40px 20px 20px;
+}
 .body {
     float: left;
-    width: 40vw;
+    width: 60vw;
     color: #6a6969;
     padding: 30px 10px 10px 10px;
     margin: 3px;
         }
+.gift_body, .our_body{
+    float: left;
+    width: 60vw;
+    height: 45vw;
+    color: #6a6969;
+    padding: 30px 10px 10px 10px;
+    margin: 3px;
+}
+
 .welcome_msg {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -59,64 +76,63 @@ a:hover {
     border: 1px;
     padding: 6px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-
+    font-size: 0.875em;
 }
 #monday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 10px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #tuesday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
 }
 #wednesday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #thursday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
 }
 #friday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 #saturday {
-    height: 140px;
-    width: 126px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 3vw;
+    padding: .24vw;
 }
 #sunday {
-    width: 126px;
-    height: 140px;
+    height: 11vw;
+    width: 9.85vw;
     float: left;
-    margin: 5px;
-    line-height: 25px;
-    padding: 3px;
+    margin: .4vw;
+    line-height: 1.96vw;
+    padding: .24vw;
 }
 
 ul.days li {
@@ -126,58 +142,58 @@ ul.days li {
     padding-bottom: 1px;
 }
 .day {
-    font-size: 14px;
+    font-size: 0.875em;
 }
 .time {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: .75em;
+    line-height: 1.25em;
 }
 .flavor {
-    font-size: 12px;
-    line-height: 37px;
+    font-size: 0.75em;
+    line-height: 2.35em;
 }
 #coconut {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #824603;
     color: white;
-    font-size: 12px;
+    font-size: 0.75em;
     border: 2px;
     padding: 4px 3px 0 0;
 }
 #vanilla {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #df5277;
     color: white;
-    font-size: 12px;
+    font-size: 0.75em;
     border: 2px;
     padding: 4px 3px 0 0;
 }
 #lemon {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #a2304e;
     color: white;
-    font-size: 12px;
+    font-size: 0.75em;
     border: 2px;
     padding: 4px 3px 0 0;
 }
 #almond {
-    width: 126px;
-    height: 33px;
+    width: 9.85vw;
+    height: 2.57vw;
     background-color: #c39005;
     color: white;
-    font-size: 12px;
+    font-size: 0.75em;
     padding: 4px 3px 0 0;
 }
 .footer {
-    width: 1000px;
-    height: 80px;
+    width: 78.2vw;
+    height: 5.63vw;
     background-color: #df5277;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: .75em;
 }
 ul#footer1 li {
     list-style-type: none;
@@ -199,12 +215,13 @@ ul#footer1 li {
     margin: 0 10px 0 25px;
 }
 
-#find_us {
-    width: 1000px;
-    height: 400px;
+#find_us img{
+    width: 78.2vw;
+    height: 31.25vw;
 }
+
 .contact_body {
-    width: 1000px;
+    width: 78.2vw;
     padding-top: 10px;
 }
 #open_time {
@@ -273,11 +290,97 @@ ul.open li {
     clear: both;
 }
 
+#flavors {
+    margin: 10px;
+    padding: 0;
+    float: left;
+}
+#flavors img {
+    width: 75vw;
+    height: 50vw;
+    float: left;
+}
+#our_macarons {
+    position: relative;
+    right: 0;
+    bottom: 40vw;
+    z-index: -1;
+}
+#after_purchase {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+    position: relative;
+    bottom: 42vw;
+}
+#party img {
+    width: 78.2vw;
+    height: 31.25vw;
+}
+#party_tower{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#orders {
+    color: #df5277;
+}
+#gifts {
+    position: relative;
+    right: 0;
+    bottom: 550px;
+    z-index: -1;
+
+}
+.footer_menu {
+    width: 78.2vw;
+    height: 5.63vw;
+    background-color: #df5277;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    bottom: 0;
+}
+ul#footer1_menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 5px 10px 40px;
+    border: 10px;
+    color: white;
+    margin: 5%;
+
+}
+.footer2_menu {
+    text-align: center;
+    color: white;
+}
+
 @media screen and (max-width: 375px) {
 
-
-
-    #find_us {
+    .header {
+        background-color: #fffabe;
+        padding: 5px;
+        width: 80%;
+        height: 50%;
+    }
+    ul#h1 li {
+        display: inline;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50%;
+        background-color: #fffabe;
+        margin: 5%;
+        padding: 3%;
+        text-align: center;
+    }
+    #logo img {
+        width: 80%;
+        height: 10%;
+        text-align: center;
+    }
+    #find_us img{
         max-width: 85%;
         height: auto;
     }
@@ -323,67 +426,95 @@ ul.open li {
         margin: 30%;
     }
 
-}
+    #monday {
+        height: 15%;
+        width: 30%;
 
+    }
+    #tuesday {
+        height: 15%;
+        width: 30%;
 
-#flavors {
-    margin: 10px;
-    padding: 0;
-}
-#our_macarons {
+    }
+    #wednesday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #thursday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #friday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #saturday {
+        height: 15%;
+        width: 30%;
+
+    }
+    #sunday {
+        height: 15%;
+        width: 30%;
+    }
+    #coconut {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #vanilla {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #lemon {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #almond {
+        width: 100%;
+        height: 6.5vw;
+    }
+    #our_macarons {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+    }
+.footer {
     position: relative;
-    right: 0;
-    bottom: 550px;
-    z-index: -1;
-}
-#after_purchase {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #6a6969;
-    position: relative;
-    bottom: 525px;
-}
-#party {
-    width: 1000px;
-    height: 400px;
-}
-#party_tower{
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #6a6969;
-}
-#orders {
-    color: #df5277;
-}
-#gifts {
-    position: relative;
-    right: 0;
-    bottom: 550px;
-    z-index: -1;
-
-}
-.footer_menu {
-    width: 1000px;
-    height: 80px;
-    background-color: #df5277;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    position: fixed;
-    bottom: 0;
-}
-ul#footer1_menu li {
-    list-style-type: none;
-    display: inline;
-    padding: 10px 5px 10px 40px;
-    border: 10px;
-    color: white;
-    margin: 5%;
-
-}
-.footer2_menu {
+    height: auto;
+    width: 100%;
     text-align: center;
-    color: white;
-}
 
+}
+#footer1{
+    width: 70%;
+}
+    .footer_menu {
+        width: 100%;
+        height: 100%;
+
+    }
+    ul#footer1_menu li {
+        font-size: 50%;
+        text-align: center;
+        margin: 100%;
+        padding: 100%;
+    }
+#footer2 {
+    width: 70%;
+}
+    #gifts{
+        height: 50%;
+        width: 100%;
+
+    }
+    #party_tower{
+        width: 100%
+    }
+    #footer_contact{
+        position: absolute;
+        bottom: -87%;
+    }
+}
