@@ -78,63 +78,14 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875em;
 }
-#monday {
+#macaron_days > div{
     height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
+    /*width: 9.85vw;*/
+    /*float: left;*/
+    /*margin: .4vw;*/
     line-height: 1.96vw;
     padding: .24vw;
 }
-#tuesday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 3vw;
-    padding: .24vw;
-}
-#wednesday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 1.96vw;
-    padding: .24vw;
-}
-#thursday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 3vw;
-    padding: .24vw;
-}
-#friday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 1.96vw;
-    padding: .24vw;
-}
-#saturday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 3vw;
-    padding: .24vw;
-}
-#sunday {
-    height: 11vw;
-    width: 9.85vw;
-    float: left;
-    margin: .4vw;
-    line-height: 1.96vw;
-    padding: .24vw;
-}
-
 ul.days li {
     list-style-type: none;
     background-color: #fffabe;
@@ -420,41 +371,11 @@ ul#footer1_menu li {
     #contact_image {
         margin: 30%;
     }
-
-    #monday {
+    #macaron_days > div{
         height: 15%;
-        width: 30%;
+        #width: 30%;
+    }
 
-    }
-    #tuesday {
-        height: 15%;
-        width: 30%;
-
-    }
-    #wednesday {
-        height: 15%;
-        width: 30%;
-
-    }
-    #thursday {
-        height: 15%;
-        width: 30%;
-
-    }
-    #friday {
-        height: 15%;
-        width: 30%;
-
-    }
-    #saturday {
-        height: 15%;
-        width: 30%;
-
-    }
-    #sunday {
-        height: 15%;
-        width: 30%;
-    }
     #coconut {
         width: 100%;
         height: 6.5vw;
