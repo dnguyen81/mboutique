@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dndeli
- * Date: 11/29/2015
- * Time: 4:22 PM
- */
-?>
+
 <!DOCTYPE html>
 <html>
 <head>

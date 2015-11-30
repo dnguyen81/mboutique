@@ -1,10 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dndeli
- * Date: 11/29/2015
- */
-?>
 
 <!DOCTYPE html>
 <html>
