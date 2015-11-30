@@ -1,7 +1,7 @@
 
 <?php
 $menu = array("about"=>
-    array('link_text' => 'Home', 'link_url' => 'index.php'),
+    array('link_text' => 'Home', 'link_url' => 'index2.php'),
     "our_macarons"=>
         array('link_text' => 'Our Macarons','link_url' => 'our_macarons.php'),
     "gifts_parties"=>
