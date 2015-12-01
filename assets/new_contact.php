@@ -65,7 +65,7 @@
                 <br>
                 <input type="submit" value="Submit Again" id="submit">
             </form>
-            <h2>Thank you for your submission. We will be contacting you shortly. If there are any mistakes,
+            <h2>Thank you for your submission. We will be contacting you shortly. If there are any additional inquiries or questions,
                 please submit again.</h2>
             <?php
         }else{

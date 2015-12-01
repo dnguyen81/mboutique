@@ -43,13 +43,13 @@
     </p>
 </div>
 
-<div id="macaron_days">
+<div id="macaron_days" class="col-xs-10 col-xs-offset-1">
     <div id="monday" class="col-xs-10 col-xs-offset-1 col-sm-4">
         <ul class="days" style="padding-left: 0;">
             <li class="day"> Monday</li>
             <li class="time"> 15:00 - 16:00</li>
             <li class="flavor"> chocolate <img src="assets/images/chocolate.png" align="right"></li>
-            <li id="coconut"> coconut <img src="assets/images/coconut.png" align="right"></li>
+            <li id="coconut" class="colored"> coconut <img src="assets/images/coconut.png" align="right"></li>
         </ul>
     </div>
     <div id="tuesday" class="col-xs-10 col-xs-offset-1 col-sm-4">
@@ -65,7 +65,7 @@
             <li class="day"> Wednesday</li>
             <li class="time"> 09:00 - 10:00</li>
             <li class="flavor"> passion fruit <img src="assets/images/passion-fruit.png" align="right"></li>
-            <li id="vanilla"> vanilla <img src="assets/images/vanilla.png" align="right"></li>
+            <li id="vanilla" class="colored"> vanilla <img src="assets/images/vanilla.png" align="right"></li>
         </ul>
     </div>
     <div id="thursday" class="col-xs-10 col-xs-offset-1 col-sm-4">
@@ -81,7 +81,7 @@
             <li class="day"> Friday</li>
             <li class="time"> 11:00 - 12:00</li>
             <li class="flavor"> raspbery <img src="assets/images/raspbery.png" align="right"></li>
-            <li id="lemon"> lemon <img src="assets/images/lemon.png" align="right"></li>
+            <li id="lemon" class="colored"> lemon <img src="assets/images/lemon.png" align="right"></li>
         </ul>
     </div>
     <div id="saturday" class="col-xs-10 col-xs-offset-1 col-sm-4">
@@ -97,7 +97,7 @@
             <li class="day"> Sunday</li>
             <li class="time"> 10:00 - 11:00</li>
             <li class="flavor"> caramel <img src="assets/images/caramel.png" align="right"></li>
-            <li id="almond"> almond <img src="assets/images/almond.png" align="right"></li>
+            <li id="almond" class="colored"> almond <img src="assets/images/almond.png" align="right"></li>
         </ul>
     </div>
 </div>

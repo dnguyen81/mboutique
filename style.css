@@ -93,50 +93,38 @@ ul.days li {
     padding-bottom: 1px;
 }
 .day {
-    font-size: 0.875em;
+  /*  font-size: 0.875em; */
 }
 .time {
-    font-size: .75em;
+ /*   font-size: .75em; */
     line-height: 1.25em;
 }
 .flavor {
-    font-size: 0.75em;
+  /*  font-size: 0.75em; */
     line-height: 2.35em;
 }
-#coconut {
-    width: 9.85vw;
-    height: 2.57vw;
-    background-color: #824603;
+.colored{
+    height: 1.75vw;
     color: white;
-    font-size: 0.75em;
+    /*  font-size: 0.75em; */
     border: 2px;
     padding: 4px 3px 0 0;
+}
+#coconut {
+    background-color: #824603;
 }
 #vanilla {
-    width: 9.85vw;
-    height: 2.57vw;
+
     background-color: #df5277;
-    color: white;
-    font-size: 0.75em;
-    border: 2px;
-    padding: 4px 3px 0 0;
+
 }
 #lemon {
-    width: 9.85vw;
-    height: 2.57vw;
+
     background-color: #a2304e;
-    color: white;
-    font-size: 0.75em;
-    border: 2px;
-    padding: 4px 3px 0 0;
+
 }
 #almond {
-    width: 9.85vw;
-    height: 2.57vw;
     background-color: #c39005;
-    color: white;
-    font-size: 0.75em;
-    padding: 4px 3px 0 0;
 }
 .footer {
     width: 78.2vw;
