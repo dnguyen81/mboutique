@@ -46,7 +46,7 @@
         <p class="welcome_msg">
             Contact Form
         </p>
-        <form id="contact">
+        <form id="contact" method="post" action="index2.php?page=contact_verified.php">
             <input id="name" type="text" name="name" placeholder="Name">
             <input id="email" type="text" name="email" placeholder="Email">
             <input id="phone" type="text" name="phone" placeholder="Phone">

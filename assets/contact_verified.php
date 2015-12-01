@@ -1,7 +1,5 @@
-
-
-<div id="welcome">
-    <img src="assets/images/our-macarons-image.png">
+<div id="find_us">
+    <img src="assets/images/contact-image.png">
 </div>
 <form id = "language" action="http://www.google.com/translate" >
     <script language="JavaScript">
@@ -21,39 +19,36 @@
     <input name="langpair" value="en|zh-CN" title="Chinese Simplified" src= "http://photos1.blogger.com/img/43/1633/320/14324441_5ca5ce3423.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
     <input name="langpair2" value="en|ar" title="Arabic" src= "http://photos1.blogger.com/blogger/3709/485/1600/arabic-flag.gif" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
 </form>
-<div class="our_body">
-    <p class="welcome_msg">
-        Our macarons are freshly made by hand
-    </p>
-    <p class="description">
-        The vivid hues of our unique macarons reflect the natural flavors and essences that infuse the ganache filling
-        of these delicious almond cookies - each has its own personality, and all of htem are made to savour for their
-        delicacy and unique character.
-    </p>
-    <p class="welcome_msg">
-        Classics
-    </p>
-    <div id="flavors">
-        <ul class="description">
-            <li>caribbean chocolate</li>
-            <li>coconut</li>
-            <li>colombian coffee</li>
-            <li>green tea</li>
-            <li>lemon</li>
-            <li>madagascar vanilla</li>
-            <li>passion fruit</li>
-            <li>rose</li>
-            <li>raspbery</li>
-            <li>tiffany blue</li>
-            <li>sicilian pistachio</li>
-            <li>sweet wedding almond</li>
-            <li>violet cassis</li>
-            <li>salted caramel</li>
-        </ul>
-        <img src="assets/images/our-macarons-background.png" id="our_macarons">
+<div class="contact_body">
+    <div class="welcome_msg">
+        Visit us!
     </div>
-    <p id="after_purchase">
-        After purchase we recommend keeping macarons in the refrigerator; let them come to room temperature before
-        serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.
-    </p>
+    <div id="open_time">
+        <ul id="open">
+            <li>Monday - Friday | 10am - 9pm</li>
+            <li>Saturday | 10am - 8pm</li>
+            <li>Sunday | 11am - 7pm</li>
+            <li>Closed Thanksgiving Day, Christmas Day and Easter Day</li>
+        </ul>
+        <p class="description">
+            1625 Post St<br>
+            San Francisco, CA 94115
+            <br>
+            <br>
+            949.800-31111
+            <br>
+            <span id="order">order@mboutque.com</span>
+            <br>
+            Send your questions, comments and flavor suggestions or place an order!
+        </p>
+    </div>
+    <div id="contact_form">
+        <h3>Thank you for your submission. We will be in contact with you shortly</h3>
+        <?php
+        print_r($_POST);
+        ?>
+    </div>
+    <img src="assets/images/macarons-image.png" id="contact_img" style="margin: 30px 0 0 30px;">
+
 </div>
+

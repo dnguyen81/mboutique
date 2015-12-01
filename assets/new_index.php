@@ -26,7 +26,7 @@
 <div class="body" class="col-xs-12">
     <p class="welcome_msg">Welcome to MBoutique</p>
     <p class="description" data-translate="5">
-        {{home_description}}
+        We're a home-based baking business that specializes in the making of French Macarons, a gluten-free pastry item made from ground almonds. Our business began at hte West Reading Farmers Market in 2011. Last year (2013) marked our third and final season of participation at hte market. MBoutique was established to pay homage to the delicate French confectionery, the macaron. Our shop has been recognized as the connoisseurs of this delicious French pastry because of the wonderful variety of flavors from our great master chefs.
     </p>
     <p class="welcome_msg">We love Macarons!</p>
     <p class="description">

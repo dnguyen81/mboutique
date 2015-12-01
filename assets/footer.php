@@ -1,3 +1,6 @@
+<div id="footer_contact">
+    <footer class="footer">
+        <ul id="footer1">
 <?php
 $footer = array(
     array('text' => 'order@mboutique.com', 'image' => 'assets/images/mail.png', 'class'=>'pic_align1'),
@@ -16,6 +19,9 @@ foreach($footer as $value) {
 
             <?php
         }
-
+print($copyright);
 
 ?>
+        </ul>
+    </footer>
+</div>
