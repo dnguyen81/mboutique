@@ -52,8 +52,11 @@
         </ul>
         <img src="assets/images/our-macarons-background.png" id="our_macarons">
     </div>
-    <p id="after_purchase">
+    <div id="after_purchase">
+
+    <p>
         After purchase we recommend keeping macarons in the refrigerator; let them come to room temperature before
         serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.
     </p>
+    </div>
 </div>

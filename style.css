@@ -54,7 +54,7 @@ a:hover {
 .gift_body, .our_body{
     float: left;
     width: 60vw;
-    height: 45vw;
+    height: 25vw;
     color: #6a6969;
     padding: 30px 10px 10px 10px;
     margin: 3px;
@@ -181,7 +181,7 @@ ul.open li {
     float: left;
 }
 #submit {
-    margin-left: 50%;
+    margin-left: 33%;
     background-color: #f5f5f5;
     width: 155px;
     height: 35px;
@@ -227,7 +227,8 @@ ul.open li {
 }
 #footer_contact {
     clear: both;
-    margin-top: 52vw;
+    margin-top: 37vw;
+    text-align: center;
 }
 
 #flavors {
