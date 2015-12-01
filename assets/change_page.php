@@ -12,9 +12,7 @@ if ($op == ''){
     include('assets/new_gifts.php');
 }else if ($op == 'contact'){
     include('assets/new_contact.php');
-} else if ($op == 'contact_verified.php'){
-    include('assets/contact_verified.php');
-} else {
+}  else {
     include('assets/404.php');
 }
 

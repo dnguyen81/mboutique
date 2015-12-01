@@ -45,7 +45,12 @@
     <div id="contact_form">
         <h3>Thank you for your submission. We will be in contact with you shortly</h3>
         <?php
-        print_r($_POST);
+       // print_r($_POST);
+        print('Name: '.$_POST[name].'<br>');
+        print('Email: '.$_POST[email].'<br>');
+        print('Phone: '.$_POST[phone].'<br>');
+        print('Inquiring: '.$_POST[subject].'<br>');
+        print('Message: '.$_POST[message].'<br>');
         ?>
     </div>
     <img src="assets/images/macarons-image.png" id="contact_img" style="margin: 30px 0 0 30px;">

@@ -3,8 +3,10 @@ $menu = array(
     "about"=> array('link_text' => 'Home', 'link_url' => 'about'),
     "our_macarons"=> array('link_text' => 'Our Macarons','link_url' => 'our_macarons'),
     "gifts_parties"=> array('link_text' => 'Gifts & Parties','link_url' => 'gifts_parties'),
-    "contact"=> array('link_text' => 'Contact Us', 'link_url' => 'contact'),
+    "contact"=> array('link_text' => 'Contact Us', 'link_url' => 'contact')
 );
+//print_r($_GET);
+//print_r($menu['our_macarons']['link_url']);
 //do we have an appropriate get superglobal
 //if no, pick default page
 //if yes, is that value in the menu array
@@ -29,6 +31,8 @@ $menu = array(
 <!--<body class="col-xs-12 text-center">-->
         <?php
         include('assets/header.php');
+        // dynamice version
+        //include($_GET['page']);
         include('assets/change_page.php');
         include('assets/footer.php');
         ?>

@@ -46,7 +46,36 @@
         <p class="welcome_msg">
             Contact Form
         </p>
-        <form id="contact" method="post" action="index2.php?page=contact_verified.php">
+        <?php
+        if(!empty($_POST)) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $phone = $_POST['phone'];
+            $subject = $_POST['subject'];
+            $message = $_POST['message'];
+           // print('Name: '.$name.'<br>'.'Email: '.$email.'<br>'.'Phone Number: '.$phone.'<br>'.'Subject: '.$subject.'<br>'.'Message: '.$message);
+            ?>
+
+            <form id="contact" method="post" action="index2.php?page=contact">
+                <input id="name" type="text" name="name" placeholder="Name" value="<?=$name?>">
+                <input id="email" type="text" name="email" placeholder="Email" value="<?=$email?>">
+                <input id="phone" type="text" name="phone" placeholder="Phone" value="<?=$phone?>">
+                <input id="subject" type="text" name="subject" placeholder="Subject" value="<?=$subject?>">
+                <textarea name="message" id= "message" placeholder="Message"><?=$message?></textarea>
+                <br>
+                <input type="submit" value="Submit Again" id="submit">
+            </form>
+            <h2>Thank you for your submission. We will be contacting you shortly. If there are any mistakes,
+                please submit again.</h2>
+            <?php
+        }else{
+//            $name = '';
+//            $email = '';
+//            $phone = '';
+//            $subject = '';
+//            $message = '';
+            ?>
+            <form id="contact" method="post" action="index2.php?page=contact">
             <input id="name" type="text" name="name" placeholder="Name">
             <input id="email" type="text" name="email" placeholder="Email">
             <input id="phone" type="text" name="phone" placeholder="Phone">
@@ -55,6 +84,10 @@
             <br>
             <input type="submit" value="SEND" id="submit">
         </form>
+        <?php
+        };
+        ?>
+
     </div>
     <img src="assets/images/macarons-image.png" id="contact_img" style="margin: 30px 0 0 30px;">
 
