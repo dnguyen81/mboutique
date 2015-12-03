@@ -1,17 +1,20 @@
 <?php
 $menu = array(
-    "about"=> array('link_text' => 'Home', 'link_url' => 'about'),
-    "our_macarons"=> array('link_text' => 'Our Macarons','link_url' => 'our_macarons'),
-    "gifts_parties"=> array('link_text' => 'Gifts & Parties','link_url' => 'gifts_parties'),
-    "contact"=> array('link_text' => 'Contact Us', 'link_url' => 'contact')
+    "about"=> array('link_text' => 'Home', 'link_url' => 'assets/new_index.php'),
+    "our_macarons"=> array('link_text' => 'Our Macarons','link_url' => 'assets/new_our_macarons.php'),
+    "gifts_parties"=> array('link_text' => 'Gifts & Parties','link_url' => 'assets/new_gifts.php'),
+    "contact"=> array('link_text' => 'Contact Us', 'link_url' => 'assets/new_contact.php')
 );
-//print_r($_GET);
-//print_r($menu['our_macarons']['link_url']);
-//do we have an appropriate get superglobal
-//if no, pick default page
-//if yes, is that value in the menu array
-    //if yes, include that menu array's link_url below
-    //if no, include the 404.php below
+
+if(empty($_GET['page'])){
+    $page = $menu['about']['link_url'];
+}else{
+    if(isset($menu[$_GET['page']])){
+        $page = $menu[$_GET['page']]['link_url'];
+    }else{
+        $page = 'assets/404.php';
+    }
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -31,9 +34,8 @@ $menu = array(
 <!--<body class="col-xs-12 text-center">-->
         <?php
         include('assets/header.php');
-        // dynamice version
-        //include($_GET['page']);
-        include('assets/change_page.php');
+        // dynamic version
+        include($page);
         include('assets/footer.php');
         ?>
 
