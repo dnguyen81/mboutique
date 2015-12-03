@@ -69,11 +69,7 @@
                 please submit again.</h2>
             <?php
         }else{
-//            $name = '';
-//            $email = '';
-//            $phone = '';
-//            $subject = '';
-//            $message = '';
+
             ?>
             <form id="contact" method="post" action="index2.php?page=contact">
             <input id="name" type="text" name="name" placeholder="Name">
